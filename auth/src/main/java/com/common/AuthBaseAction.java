@@ -31,6 +31,9 @@ public class AuthBaseAction {
 	 * 获取用户{@link User},密码为空
 	 */
 	protected User getUser(){
+		String set = new String();
+		set=null;
+		
 		User user = (User) request.getSession().getAttribute(LOGIN_USER);
 	    return user;
 	}
