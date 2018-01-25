@@ -1,8 +1,0 @@
-1.	使用@Configuration和@Bean代替xml来加载bean时
-	@Bean
-	public ComboPooledDataSource dataSource() {
-	
-	}
-	方法名为dataSource()时spring貌似不创建该bean
-	
-2. http://stackoverflow.com/questions/19919540/mybatis-spring-with-java-config-and-xml-mappers
