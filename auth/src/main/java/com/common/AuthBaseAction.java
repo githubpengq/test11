@@ -24,6 +24,9 @@ public class AuthBaseAction {
         if(this.getUser()!=null){
         	return true;
         }
+        String  test = "";
+        String  test1 = "";
+        String testTotal = test + test1;
         return false;
     }
 	
